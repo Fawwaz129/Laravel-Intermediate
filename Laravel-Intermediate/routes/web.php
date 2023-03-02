@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-app()->singleton('saldo', function(){return new App\Data\Tabungan();});
+//app()->singleton('saldo', function(){return new App\Data\Tabungan();});
 
 Auth::routes();
 
